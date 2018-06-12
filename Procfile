@@ -1,1 +1,1 @@
-web: gunicorn envo:app
+web: gunicorn app:app

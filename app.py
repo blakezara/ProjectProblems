@@ -17,7 +17,7 @@ from flask import (
     request, 
     redirect)
 
-
+app = Flask(__name__)
 ################# Flask Setup ##########################
 
 

@@ -16,9 +16,10 @@ from flask import (
     jsonify, 
     request, 
     redirect)
+
+
 ################# Flask Setup ##########################
 
-app = Flask(__name__)
 
 #################################################
 # sqlite : connect to the existing database
